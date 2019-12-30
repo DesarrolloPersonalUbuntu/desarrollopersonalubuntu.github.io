@@ -122,9 +122,24 @@
     <!---->
     <header class="header">
       <div class="container-lrg">
+        <div class="flex col-12 spread"> 
+           </nav>
+        </div>
         <div class="flex col-12 spread">
-          <a class="logo primary-color launchaco-builder-hoverable logo">Ubuntu</a>
-          <a href="mailto:desarrollopersonalubuntu@gmail.com" class="nav-link secondary-color mr0">Contacto</a></div>
+          <a href="/" class="logo primary-color launchaco-builder-hoverable logo">Ubuntu</a>
+          <a href="#main-menu" id="menu" class="menu-toggle">
+            <b class="nav-link mr0 secondary-color">☰</b>
+          </a>
+          <nav id="main-menu" role="navigation" class="main-menu">
+            <a href="#" id="main-menu-close" class="menu-close">
+              <span class="bold">✕</span>
+            </a>
+            <a href="#" class="nav-link primary-color"><b>Blog</b></a>
+            <a href="#" class="nav-link primary-color"><b>Chat</b></a>
+            <a href="#" class="nav-link primary-color"><b>Foro</b></a>
+            <a href="mailto:desarrollopersonalubuntu@gmail.com" class="nav-link secondary-color">Contacto</a>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="section">
@@ -133,7 +148,7 @@
           <h1 class="heading-lrg primary-color launchaco-builder-hoverable">El siguiente paso para tu crecimiento personal</h1>
           <h2 class="subheading secondary-color mt20 launchaco-builder-hoverable">Aprende, comparte y consigue tus objetivos junto a otras personas</h2>
           <div class="mt40">
-            <form action="https://launchcaco.us20.list-manage.com/subscribe/post?u=8bd1820d6568f21b6a5c8fb74&amp;amp;id=d84eaebbc3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="container-sml mailchimp flex mb20"><input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required="required" class="mailchimp-input mobile-text-center">
+            <form action="https://launchcaco.us20.list-manage.com/subscribe/post?u=8bd1820d6568f21b6a5c8fb74&amp;amp;id=d84eaebbc3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate" class="container-sml mailchimp flex mb20"><input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Tu correo electrónico" required="required" class="mailchimp-input mobile-text-center">
               <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_3198ee66c8baf4d60aa2fee6b_d60e1830e8" tabindex="-1" value=""></div> <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="white-color button no-max-width accent-bg primary-color" value="Saber más">
             </form>
           </div>
